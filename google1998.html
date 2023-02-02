@@ -29,7 +29,7 @@
         }
 
         .input {
-            width: 60%;
+            width: 360px;
             display: block;
             margin: auto;
         }
@@ -55,12 +55,11 @@
             margin: auto;
         }
 
-        .d-flex div {
+        .d-flex .links {
             background-color: rgb(1, 212, 212);
             justify-content: center;
             width: 50%;
             margin: 1px;
-
         }
 
         .font-size-m {
@@ -87,26 +86,28 @@
     <div class="search-field">
         <p class="text-center">Search the web using Google!</p>
         <input class="input" type="text">
-        <div class="d-flex w-40 m-auto">
-            <button class="input">Google Search</button>
-            <button class="input">I'm feeling lucky</button>
+        <div class="d-flex w-40">
+            <div class="m-auto">
+                <button class="m-auto">Google Search</button>
+                <button class="m-auto">I'm feeling lucky</button>
+            </div>
         </div>
 
         <div class="d-flex">
-            <div>
+            <div class="links">
                 <p class="text-center font-size-m">Special Searches <br>
                     <a href="https://www.google.com.tr/?hl=tr">Stanford Search</a><br>
                     <a href="https://www.google.com.tr/?hl=tr">Linux Search</a>
                 </p>
             </div>
-            <div>
+            <div class="links">
                 <p class="text-center font-size-s"><a href="">Help!</a><br>
                     <a href="https://www.google.com.tr">About Google!</a><br>
                     <a href="https://www.google.com.tr/?hl=tr">Company İnfo</a><br>
                     <a href="https://www.google.com.tr/?hl=tr">Google! Logos</a>
                 </p>
             </div>
-            <div class="text-center font-size-s">
+            <div class="links text-center font-size-s">
                 <p class="mb-0 font-size-s">Get Google! <br>updates monthly</p>
                 <input type="text" placeholder="Your e-mail"> <br>
 
